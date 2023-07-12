@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Input from './input'
-import Select from './Select'
+import Select from './select'
 import * as styles from './contact-form.module.scss'
 
 const contactUsInitialState = {
