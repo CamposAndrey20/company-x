@@ -1,0 +1,33 @@
+@import "../shared/variables";
+
+.select {
+    &__container {
+        position: relative;
+        margin-bottom: 27px;
+        display: flex;
+    }
+
+    &__label {
+        color: $border-color;
+        font-size: 15px;
+        height: auto;
+        position: absolute;
+        left: 22px;
+        top: 17px;
+
+        &__floating {
+            background-color: white;
+            top: -8px;
+            padding: 0 10px;
+        }
+    }
+
+    &__element {
+        height: 50px;
+        border-radius: 5px;
+        border: 1px solid $border-color;
+        background: white;
+        width: 100%;
+        padding: 0 22px;
+    }
+}

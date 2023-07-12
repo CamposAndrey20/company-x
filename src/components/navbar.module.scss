@@ -1,0 +1,13 @@
+@import "../shared/variables";
+
+.nav {
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__heading {
+        margin: 0;
+        font-size: 25px;
+    }
+}

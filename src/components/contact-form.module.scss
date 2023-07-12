@@ -1,0 +1,22 @@
+@import "../shared/variables";
+
+.contact__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &__button {
+        align-self: flex-end;
+        border-radius: 5px;
+        background: $tertiary-color;
+        color: white;
+        min-height: 50px;
+        padding: 10px 45px;
+        border: none;
+
+        &:disabled {
+            background-color: gray;
+            color: $tertiary-color;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+@import "../shared/variables";
+
+.header {
+    background: $primary-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    p {
+        color: $header-color;
+        margin: 0;
+        padding: 8px;
+    }
+}
