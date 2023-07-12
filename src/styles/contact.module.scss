@@ -12,12 +12,12 @@
 
     &__columns {
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
         &__left {
-            flex-basis: 55%;
+            margin-bottom: 24px;
         }
         &__right {
-            flex-basis: 40%;
 
             p {
                 margin: 0 0 16px;
@@ -36,6 +36,22 @@
 
             span {
                 font-weight: bold;
+            }
+        }
+    }
+}
+
+@media screen and (min-width : $tablet){
+    .contact {
+        &__columns {
+            flex-direction: row;
+
+            &__left {
+                flex-basis: 55%;
+            }
+
+            &__right {
+                flex-basis: 40%;
             }
         }
     }
